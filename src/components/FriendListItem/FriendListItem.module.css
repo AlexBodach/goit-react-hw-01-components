@@ -1,12 +1,13 @@
 .item {
-  border: 1px solid aqua;
+  width: 500px;
+  background-color: rgb(245, 241, 241);
   display: flex;
   align-items: center;
-  box-shadow: 1px 2px 8px 4px rgb(197, 191, 191);
+  box-shadow: 1px 2px 8px 4px rgb(223, 217, 217);
 }
 
 .item:hover {
-  transform: translateX(30px);
+  transform: translateX(15px);
 }
 
 .item:hover .btn {
